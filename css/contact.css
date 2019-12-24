@@ -52,9 +52,10 @@ position:absolute;
 }
 
 .contactContainer{
+  z-index: 11;
   position: relative;
-  top: 280px;
-  left: 25%;
+  top: 225px;
+  left: 24%;
 }
 
 #message{
@@ -62,4 +63,15 @@ position:absolute;
   border: 1px solid black !important;
   border-radius: 15px !important;
   padding: 15px;
+}
+
+.bg{
+  position: relative;
+  bottom: 25px;
+  height: 100%;
+  margin: 0;
+  background-image: url(../images/contact_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
