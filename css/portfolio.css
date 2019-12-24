@@ -1,14 +1,7 @@
-/*
-  Template Name: MyPortfolio
-  Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
-  Author: BootstrapMade.com
-  Author URL: https://bootstrapmade.com/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-
+.portfolioContainer{
+  position: relative;
+  top: 55px;
+}
 
 .filters a {
   color: #000;
@@ -17,6 +10,8 @@
   padding-right: 10px;
   position: relative;
 }
+
+
 
 .filters a:hover,
 .filters a:focus,
@@ -63,7 +58,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: linear-gradient(34deg, rgba(39,17,244,0.7609418767507002) 0%, rgba(39,17,244,0.3575805322128851) 100%);
   visibility: hidden;
   opacity: 0;
   transition: .3s all ease-in-out;
@@ -75,9 +70,15 @@
   transform: scale(1);
 }
 
+@font-face {
+  font-family: Helvetica;
+  src: url(fonts/Helvetica.ttf);
+}
+
 .item .item-wrap > .work-info {
   position: absolute;
   top: 50%;
+  font-family: Helvetica;
   width: 100%;
   text-align: center;
   z-index: 3;
