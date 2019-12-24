@@ -1,0 +1,273 @@
+.banner {
+  position: relative;
+  background: url(../img/bg.gif);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 400px 0 200px;
+}
+
+.banner .container {
+  max-width: 1600px;
+}
+
+.text-container-lower{
+  margin-top: -57px;
+  margin-left: 16px;
+}
+
+.text-container-lower h1{
+  font-size: 20px;
+  font-weight: none;
+}
+
+.text-container-lower-desc{
+  font-size: 10px;
+  margin-left: 16px;
+  max-width: 700px;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
+
+.box{
+  margin: 5px;
+}
+
+.motion-stills{
+  margin-bottom: 10px;
+  font-size: 10px;
+  margin-top: 25px;
+  margin-left: 16px;
+  max-width: 700px;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
+
+.text-container-lower-desc h1{
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+}
+
+.redclass{
+  background-color: red;
+}
+
+
+header {
+  position: absolute;
+  z-index: 10;
+  width: 100%
+}
+
+/* Grosser Titel */
+.col-sm-6 h2 {
+  font-size: 45px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+/* Kleiner Titel */
+.col-sm-6 p .nav-link {
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav-item a {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar-toggler {
+  margin-right: 25px;
+}
+
+.navbar-brand {
+  padding-left: 35px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.collapse {
+  padding-right: 35px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.nav-item {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+.activate {
+  color: rgba(6, 0, 255, .5) !important;
+}
+
+.btn {
+  background-color: #79ff32;
+  color: #000;
+  border-radius: 25px;
+  width: 150px;
+  opacity: 0;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.alert-danger {
+  margin: 0px;
+}
+
+/* Dammit sich der Cursor nicht änder bei Hover */
+a {
+  cursor: none;
+}
+
+/* Image Gallery */
+.gallery-container {
+  margin: -15px;
+}
+
+.gallery-container .box {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.gallery-container .inner {
+  position: relative;
+}
+
+.fadeInn{
+  background-color: red;
+}
+
+.gallery-container .inner:after {
+  content: '';
+  /*  z-index: -2; */
+  font-family: 'Open Sans', sans-serif;
+  /* mix-blend-mode: screen; */
+  color: #fff;
+  font-family: 15px;
+  font-weight: bold;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 1600px;
+  transition: opacity 0.3s;
+  background: rgba(6, 0, 255, 0.8);
+  opacity: 0;
+}
+
+body{
+  opacity: 1 !important;
+}
+
+.thumbnail-text {
+  z-index: 5;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.thumbnail-text:hover {
+  z-index: 5;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  opacity: 1;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1650px;
+  }
+}
+
+::selection {
+  background-color: #0600FF;
+  color: #232323;
+}
+
+.gallery-container .inner:hover:after {
+  opacity: 1;
+}
+
+.gallery-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  padding-top: 69px;
+}
+
+.video-container {
+  width: 50% margin: 0 auto;
+  margin-top: 28px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-desc{
+  position: relative;
+  top: 85px;
+}
+
+.text-container h1 {
+  z-index: 2;
+  margin: 0px;
+  margin-top: 5px;
+  padding: 0px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text-container p {
+  color: #0600FF;
+  z-index: 2;
+  margin: 0px;
+  margin-left: 20px;
+  margin-top: 5px;
+  padding: 0px;
+  font-size: 15px;
+  max-width: 800px;
+  font-family: 'Lato', sans-serif;
+}
