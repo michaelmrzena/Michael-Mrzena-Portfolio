@@ -209,6 +209,11 @@
   border-bottom: 2px solid black;
 }
 
+.navActive{
+  color: #2711f4;
+  border-bottom: 4px solid #2711f4 !important;
+}
+
 .nav-container li a:hover{
   border-bottom: 4px solid #2711f4;
   transition: width 2s;

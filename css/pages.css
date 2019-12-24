@@ -32,7 +32,8 @@ html {
 }
 
 a{
-  cursor: none
+  cursor: none !important;
+  text-decoration: none !important;
 }
 
 .cursor{
